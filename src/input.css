@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/*where will be using input.css*/
+@source "../pages";
+@source "../index.html";
+
+@theme {
+  --color-brand: #2563eb;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
