@@ -5,6 +5,8 @@
 @source "../index.html";
 
 @theme {
+  --color-primary: #000000;
+  --color-secondary: #fdc425;
   --color-brand: #2563eb;
 }
 
