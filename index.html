@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Penguin Foundation | Protecting penguins</title>
-    <meta name="description" content="Learn about Penguin Foundation, our work and how to get involved."/>
-    <link rel="stylesheet" href="dist/output.css"/>
-</head>
-<body>
 
-<!-- ============================================================
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Penguin Foundation | Protecting penguins</title>
+     <meta name="description" content="Learn about Penguin Foundation, our work and how to get involved." />
+     <link rel="stylesheet" href="src/output.css" />
+
+</head>
+
+<body>
+<style>
+     *{
+          font-family: var(--);
+          border: 0px solid black;
+     }
+</style>
+     <!-- ============================================================
      BLOCK 1: HEADER AND NAVIGATION
      Owner: juandavid
      Write only between the BLOCK 1 start and end comments.
      ============================================================ -->
-<!-- BLOCK 1 START -->
+     <!-- BLOCK 1 START -->
+     <header>
+          <!-- BLOCK 1 END -->
 
-<!-- BLOCK 1 END -->
 
-
-<!-- ============================================================
+          <!-- ============================================================
      BLOCK 2: HERO
      Owner: eduardo
      Write only between the BLOCK 2 start and end comments.
      ============================================================ -->
-<!-- BLOCK 2 START -->
+          <!-- BLOCK 2 START -->
 
+          <section class="m-4">
+               <div class="relative flex w-full ">
+                    <img class="sm: w-full h-full md: w-full h-full lg: w-full h-[50%] rounded-2xl" src="assets/images/imagenindex1.jpg"
+                         alt="">
+                    <div class="absolute w-full h-full">
+                         
+                         <div class="bg-white rounded-xl item-center inline-flex p-4 m-2 lg:w-[19%] h-[5%]">  <span class="sm:text-[0.5rem] md:text-[0.7rem] lg:text-[0.8rem]"> <span class="rounded-full bg-green-500 h-2 w-2 text-green-500">00</span> ACTIVE TELEMETRY 2026</span> </div>
+                        
+                    </div>
+                         </div>
+
+               <span class="text-[1.4rem] text-green-500 tracking-wide uppercase px-2 m-2">Scientific Habitat Stewardship</span>
+               <h1 class="md:text-[2.75rem] font-bold lg:text-[5rem] font-bold">Protecting Every Penguin Colony, From Pole to Coast</h1>
+               <p class="text-gray-400">Our global initiative deploys real-time tracking ecosystems to safeguard critical nesting zones,
+                    mitigating climate disruptions and human encroachment across fragile marine biomes.
+              </p>
+          </section>
+
+     </header>
 <!-- BLOCK 2 END -->
 
 
@@ -49,5 +76,21 @@
 
 <!-- BLOCK 4 END -->
 
+ 
+
 </body>
+
 </html>
+
+
+
+<!-- Usa el código con precaución.
+
+Notas de implementación para 375px:
+
+• Contención de texto: El tamaño del h1 (1.75rem) evita que palabras largas se corten abruptamente en pantallas
+pequeñas, rompiendo en 3 o 4 líneas de forma fluida y legible.
+• Caja 4:3: El uso de padding-top: 75% garantiza que, sin importar la resolución exacta del dispositivo de prueba, la
+imagen preservará la proporción exacta pedida en los criterios de aceptación.
+¿Necesitas que adaptemos los estilos de este componente a algún framework CSS en específico como Tailwind CSS o
+prefieres añadir alguna interacción con JavaScript? --> 
