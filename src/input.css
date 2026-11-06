@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
-/*where will be using input.css*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+
 @source "../pages";
 @source "../index.html";
 
 @theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
   --color-primary: #000000;
   --color-secondary: #fdc425;
   --color-brand: #2563eb;
