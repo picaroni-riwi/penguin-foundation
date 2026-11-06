@@ -2,6 +2,9 @@
 
 Picaroni is a foundation that cares about penguins. Its mission is to protect penguins and the ocean ecosystems they depend on, through habitat protection, research, rescue, and public awareness.
 
+## Live Website
+- **URL:** [https://picaroni-riwi.github.io/penguin-foundation/](https://picaroni-riwi.github.io/penguin-foundation/)
+
 ## Project Idea
 The website gives the foundation a simple, clear place online where people can learn about penguins, understand the foundation's work, support it with a donation, and see the organizations that partner with it.
 
@@ -26,5 +29,6 @@ To resolve discrepancies between early prose and mockup specs, the official desi
 - **Primary Color:** `#000000` (Deep Black)
 - **Secondary Color:** `#fdc425` (Stitch Yellow)
 
-## Technology
+## Technology & Deployment
 The site is built with plain HTML and Tailwind CSS v4, compiled via CLI, so it can be opened in any browser and published on GitHub Pages without extra tools.
+- **Hosting:** Published from the `main` branch to GitHub Pages, with a preview available for each pull request (PR).
