@@ -11,6 +11,11 @@
   --color-primary: #000000;
   --color-secondary: #fdc425;
   --color-brand: #2563eb;
+  --color-bg:#eff4ff;
+  --text-title:1.75rem;
+  --text-primary:1.20rem;
+  --text-secundary: 1rem;
+
 }
 
 @layer base {
